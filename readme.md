@@ -11,3 +11,7 @@ Done. Now run:
   cd pyClimApp
   npm install
   npm run dev
+
+Instalamos axios
+npm i axios
+importamos axios en provider
