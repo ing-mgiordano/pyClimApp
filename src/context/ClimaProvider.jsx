@@ -30,7 +30,7 @@ const ClimaProvider = ({children}) => {
             /* console.log(data[0]) */
             const {lat, lon} = data[0]
 
-            const urlClima = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${appId}`
+            const urlClima = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${appId}&units=metric`
             const {data : clima} = await axios(urlClima)
             /* console.log(clima) */
             setResultado(clima)
